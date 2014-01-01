@@ -1,4 +1,4 @@
 [submodule "115API"]
 	path = 115API
-	url = D:/code/python/115API
+	url = https://github.com/mengskysama/115-Lixian-API
 	branch = master
