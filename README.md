@@ -1,31 +1,22 @@
-115 离线 API
+NexusPHPSpider
+NyaaSpider
 =============
-115网盘离线下载API
-注意:非会员每月离线下载配额限制30个还是多少来着
+用来备份(作死)某站种子
+Nyaa.se应该能爬
+每个NexusPHP站点有些做过修改，可能需要对nexusphp_spider.py的BeautifulSoup解析HTML部分做一些修改
 
 包含以下接口
 -----------
-web登陆网盘
-通过种子添加任务
-离线任务管理
--队列管理
---自动清理已完成任务
---自动清理失败任务
---自动制作分享礼包
-
-不包含以下接口(因为我暂时用不着)
------------
--文件管理
--文件下载
+作死
 
 作用
 -----------
-爬一些资源站比如nyaa.se
+作死
 
 副作用
 -----------
-够115喝上一壶23333
+作死
 
 为什么某些PT站点没有速度
 -----------
-因为Ban掉了115的IP,需要进行trakcer转发可以参考https://github.com/mengskysama/BaiduDL-X-NexusPHP
+比如chdbits因为Ban掉了115的IP，需要进行trakcer转发可以参考https://github.com/mengskysama/BaiduDL-X-NexusPHP，当然也要对种子trakcer做修改(参见nexusphp_torrent_edit.py)
